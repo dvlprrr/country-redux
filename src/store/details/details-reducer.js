@@ -1,10 +1,12 @@
-import { SET_LOADING, SET_ERROR, SET_COUNTRY, CLEAR_DETAILS } from "./details-constants";
+import { SET_LOADING, SET_ERROR, SET_COUNTRY, CLEAR_DETAILS, SET_NEIGHBORS } from "./details-constants";
 
 const initialState = {
     status: "idle",
     error: null,
     currentCountry: null,
+    neighbors: []
 }
+
 
 export const detailsReducer = (state = initialState, { type, payload }) => {
     switch (type) {
@@ -25,6 +27,11 @@ export const detailsReducer = (state = initialState, { type, payload }) => {
                 ...state,
                 status: "received",
                 currentCountry: payload,
+            }
+        case SET_NEIGHBORS:
+            return {
+                ...state,
+                neighbors: payload,
             }
         case CLEAR_DETAILS:
             return initialState
