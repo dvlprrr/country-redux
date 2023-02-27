@@ -5,7 +5,6 @@
   "homepage": "https://dvplrrr.github.io/country-redux",
   "dependencies": {
     "axios": "^0.22.0",
-    "gh-pages": "^5.0.0",
     "lodash.throttle": "^4.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -44,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
