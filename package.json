@@ -2,7 +2,7 @@
   "name": "countries-flags",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dvplrrr.github.io/country-redux",
+  "homepage": "https://dvlprrr.github.io/country-redux",
   "dependencies": {
     "axios": "^0.22.0",
     "lodash.throttle": "^4.1.1",
