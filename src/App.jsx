@@ -1,11 +1,11 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 
-import { Header } from './components/Header';
-import { Main } from './components/Main';
+import { Header } from "./components/Header";
+import { Main } from "./components/Main";
 
-import { HomePage } from './pages/HomePage';
-import { Details } from './pages/Details';
-import { NotFound } from './pages/NotFound';
+import { HomePage } from "./pages/HomePage";
+import { Details } from "./pages/Details";
+import { NotFound } from "./pages/NotFound";
 
 function App() {
   return (
@@ -13,9 +13,7 @@ function App() {
       <Header />
       <Main>
         <Routes>
-          <Route exact path="/country-redux" element={
-            <HomePage />
-          } />
+          <Route exact path="/country-redux" element={<HomePage />} />
           <Route path="/country/:name" element={<Details />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

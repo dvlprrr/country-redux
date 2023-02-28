@@ -24,4 +24,5 @@
 #
 ### Информация о соседе по клику
 ![fotor_2023-2-27_17_0_17](https://user-images.githubusercontent.com/118318125/221583430-d45e6cf7-b916-4a1c-8594-c172593bf10c.png)
-
+#
+### [Github pages](https://dvlprrr.github.io/country-redux/)
