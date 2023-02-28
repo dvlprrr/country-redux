@@ -125,7 +125,7 @@ export const Info = (props) => {
               <b>Native Name:</b> {nativeName}
             </ListItem>
             <ListItem>
-              <b>Population</b> {population}
+              <b>Population:</b> {population}
             </ListItem>
             <ListItem>
               <b>Region:</b> {region}
@@ -151,7 +151,7 @@ export const Info = (props) => {
               ))}
             </ListItem>
             <ListItem>
-              <b>Top Level Domain: </b>
+              <b>Languages: </b>
               {languages.map((l) => (
                 <span key={l.name}>{l.name} </span>
               ))}
