@@ -22,7 +22,7 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled(Link).attrs({
-  to: "/",
+  to: "/country-redux",
 })`
   color: var(--colors-text);
   font-size: var(--fs-sm);
